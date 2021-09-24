@@ -1,13 +1,18 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Ph.D. in Mathematics, Pursuing
+  uni: Tezpur University
+  year: 2018 &mdash; Present
+#  awards:
+#    - award: Summa Cumme Laude graduate
+#  summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: M.Sc. in Mathematics
+  uni: Tezpur University
+  year: 2015 &mdash; 2017
+  award: Gold Medal
+#  summary: You can choose to have either a single or multiple awards
+
+- degree: B.Sc. Honours in Mathematics
+  uni: University of Calcutta
+  year: 2012 &mdash; 2015
+  summary: Minor subjects - Physics, Computer Science

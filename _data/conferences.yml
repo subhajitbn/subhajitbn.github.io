@@ -1,0 +1,34 @@
+# Conferences
+# uncomment the urls if you wish to display them, and add your own URL
+
+# jazznotes.io
+- conference: Refresher Course in Mathematics
+  org: Department of Mathematics, Ramanujan College, University of Delhi
+  duration: August 16 &mdash; September 14, 2021
+#  url: "#"
+  description: <a href="docs/refresher_course_ramanujan_college_2021sep.pdf">Certificate</a>.
+
+- conference: International Conference on Class Groups of Number Fields & Related Topics-2019
+  org: Harish-Chandra Research Institute, Prayagraj
+  duration: October 16 &mdash; 19, 2019
+#  url: "#"
+  description: <a href="https://sites.google.com/site/iccgnfrt2019/participants">Participants</a>.
+
+- conference: Advanced Instructional School on 'Modular Forms'
+  org: IIT Guwahati
+  duration: October 16 &mdash; 19, 2019
+#  url: "#"
+  description: <a href="https://www.ncmath.org/archives/atms/2019/ais/mf">Details</a>.
+
+- conference: Science Academies Refresher Course on 'Analysis'
+  org: Department of Mathematical Sciences, Tezpur University
+  duration: February 18 &mdash; March 2, 2019
+#  url: "#"
+#  description: <a href="https://www.ncmath.org/archives/atms/2019/ais/mf">Details</a>.
+
+# Springfield Community Outreach Group
+#- project: Springfield Community Outreach Group
+#  role: Co-Founder & Organizer
+#  duration: 2007 &mdash; Present
+#  # url: "#"
+#  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.

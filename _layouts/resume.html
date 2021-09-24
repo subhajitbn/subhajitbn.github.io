@@ -40,7 +40,7 @@
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+        <a href="{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
@@ -97,24 +97,24 @@
       {% endif %}
 
 
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
+      {% if site.resume_section_conferences %}
+      <!-- begin Conferences -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Conferences, Seminars and Courses</h2>
         </header>
 
-        {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+        {% for conference in site.data.conferences %}
+        <div class="resume-item" itemscope itemtype="https://schema.org/Event">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+          <h3 class="resume-item-title" itemprop="name">{% if conference.url %}<a href="{{ conference.url }}" itemprop="url">{{ conference.conference }}</a>{% else %}{{ conference.conference }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ conference.org }}  &bull; {{ conference.duration }}</h4>
+          <p class="resume-item-copy">{{ conference.description }}</p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end Conferences -->
       {% endif %}
 
       {% if site.resume_section_skills %}
