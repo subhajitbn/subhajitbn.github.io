@@ -1,7 +1,17 @@
 # Conferences
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
+- conference: Two Day Workshop on Data Science and its Applications
+  org: Department of Computer Science and Engineering, Tezpur University
+  duration: March 2 &mdash; March 3, 2022
+  description: <a href="">Certificate</a>
+  
+- conference: International Seminar on Indian Mathematicians and their Contributions
+  org: Department of Mathematics, School of Physical Sciences, Central University of Karnataka
+  duration: December 21 &mdash; December 22, 2022
+#  url: "#"
+  description: <a href="docs/Subhajit_ISIMC-2022.pdf">Certificate</a>.
+
 - conference: Refresher Course in Mathematics
   org: Department of Mathematics, Ramanujan College, University of Delhi
   duration: August 16 &mdash; September 14, 2021
@@ -12,7 +22,7 @@
   org: Harish-Chandra Research Institute, Prayagraj
   duration: October 16 &mdash; 19, 2019
 #  url: "#"
-  description: <a href="https://sites.google.com/site/iccgnfrt2019/participants">Participants</a>.
+  description: <a href="https://sites.google.com/site/iccgnfrt2019/participants">Participants</a>, <a href="">Certificate</a>.
 
 - conference: Advanced Instructional School on 'Modular Forms'
   org: IIT Guwahati
@@ -24,7 +34,7 @@
   org: Department of Mathematical Sciences, Tezpur University
   duration: February 18 &mdash; March 2, 2019
 #  url: "#"
-#  description: <a href="https://www.ncmath.org/archives/atms/2019/ais/mf">Details</a>.
+  description: <a href="">Certificate</a>.
 
 # Springfield Community Outreach Group
 #- project: Springfield Community Outreach Group
