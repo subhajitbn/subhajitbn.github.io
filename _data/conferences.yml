@@ -3,7 +3,7 @@
 
 - conference: Two Day Workshop on Data Science and its Applications
   org: Department of Computer Science and Engineering, Tezpur University
-  duration: March 2 &mdash; 3, 2022
+  duration: March 2 &mdash; 3, 2023
   description: <a href="">Certificate</a>
   
 - conference: International Seminar on Indian Mathematicians and their Contributions
@@ -11,6 +11,12 @@
   duration: December 21 &mdash; 22, 2022
 #  url: "#"
   description: <a href="docs/Subhajit_ISIMC-2022.pdf">Certificate</a>.
+
+- conference: International e-Conference on Number Theory and Differential Equations (ICND–2021)
+  org: Department of Mathematics, School of Physical Sciences, Central University of Karnataka
+  duration: December 21 &mdash; 24, 2021
+#  url: "#"
+  description: Presented a paper. <a href="docs/Subhajit_ICND-2021.pdf">Certificate</a>.
 
 - conference: Refresher Course in Mathematics
   org: Department of Mathematics, Ramanujan College, University of Delhi
