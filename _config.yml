@@ -23,7 +23,7 @@ resume_contact_address:         "P.C.99E, Arjunpur, Bidhan Nagar, Kolkata - 7000
 #resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 #display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I am a research scholar working in the field of Number Theory. My specific area of research includes integer partitions, n-color partitions, theta functions, combinatorics and related topics. I enjoy reading other researchers' ideas and works related to the aforementioned topics, and envision my own ideas from the inspiration gathered. Currently I'm seeking opportunities that will help me pursue and utilize my research.</p>"
+resume_header_intro: "<p>I am a research scholar working in the field of Number Theory. My specific area of research includes integer partitions, n-color partitions, theta functions, combinatorics and related topics. I enjoy reading other researchers' ideas and works related to the aforementioned topics and envision my own ideas from the inspiration gathered. Currently I'm seeking opportunities that will help me pursue and utilize my research.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
