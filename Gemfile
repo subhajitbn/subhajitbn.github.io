@@ -1,5 +1,5 @@
-source "https://rubygems.org"
+# Author & License
 
-gem 'github-pages'
-# this gem provides regeneration support improvements on Windows
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+This Bootstrap template is made by UX/UI designer Xiaoying Riley for developers and is 100% FREE as long as you keep the footer attribution link. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
+
+If you'd like to use the template without the attribution link, you can buy the commercial license via the theme website
