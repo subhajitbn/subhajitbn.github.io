@@ -48,24 +48,19 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Reading
-          link:
+        - item: Blogging
+          link: https://subhajitbn.medium.com/
 
         - item: Traveling
-          link:
+          link: 
 
         # - item: Cooking
         #   link:
 
 career-profile:
-    title: Career Profile
+    title: Research Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      "I was a DST-INSPIRE Research Scholar in the Department of Mathematical Sciences at Tezpur University from 2018 to 2024. My research spans several disciplines, with a primary focus on integer partitions, q-series, and their combinatorial properties. Currently, my research interests have expanded to include topological data analysis and topological deep learning."
 education:
     title: Education
     info:
@@ -73,24 +68,13 @@ education:
         university: Tezpur University
         time: 2018 - 2024
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Thesis: [Contributions to Arithmetic Identities Involving Sums of Polygonal Numbers, *n*-color Partitions, Restricted Overpartitions, and *t*-cores](https://shodhganga.inflibnet.ac.in/handle/10603/564126)
+
       - degree: MSc in Mathematical Sciences
         university: Tezpur University
         time: 2015 - 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Awarded gold medal for securing first rank in the batch.
 
 experiences:
     title: Experiences
