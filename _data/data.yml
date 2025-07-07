@@ -60,8 +60,8 @@ sidebar:
 career-profile:
     title: Research Profile
     summary: |
-      My research interests lie at the intersection of [**applied algebraic topology**](https://arxiv.org/abs/2004.00738), [**human-centered machine learning*](https://cacm.acm.org/research/toward-practices-for-human-centered-machine-learning/) (HCML), [**eXplainable AI**](https://www.sciencedirect.com/science/article/pii/S1566253523001148) (XAI), and applied statistics, with **applications to biomedical data**, complex systems, and other **high-dimensional domains** where interpretability and structure are critical. I am particularly drawn to developing transparent, mathematically grounded methods for feature selection, pattern recognition, and data-driven modeling in settings where domain-specific constraints (e.g., biological interpretability or network structure) play a central role. 
-      I was a DST-INSPIRE Research Scholar in the Department of Mathematical Sciences at Tezpur University from 2018 to 2024. My research spanned several disciplines, with a primary focus on integer partitions, *q*-series, and their combinatorial properties. 
+      I am interested in \textbf{biomedical data analysis}, particularly in \textbf{cancer diagnostics} and other \textbf{high-dimensional domains} where interpretability and structure are critical. My work draws on tools from [**applied algebraic topology**](https://arxiv.org/abs/2004.00738), [**human-centered machine learning*](https://cacm.acm.org/research/toward-practices-for-human-centered-machine-learning/) (HCML), [**eXplainable AI**](https://www.sciencedirect.com/science/article/pii/S1566253523001148) (XAI), and applied statistics.
+      I was a DST-INSPIRE Research Scholar in the Department of Mathematical Sciences at Tezpur University from 2018 to 2024. My research was broadly focused on generating functions, *q*-series, and their combinatorial properties. 
 education:
     title: Education
     info:
@@ -92,46 +92,46 @@ experiences:
             - Cambridge IGCSE, Pearson Edexcel IGCSE, IB-MYP.
       
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
