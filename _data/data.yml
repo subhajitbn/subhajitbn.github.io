@@ -60,7 +60,7 @@ sidebar:
 career-profile:
     title: Research Profile
     summary: |
-      I am interested in \textbf{biomedical data analysis}, particularly in \textbf{cancer diagnostics} and other \textbf{high-dimensional domains} where interpretability and structure are critical. My work draws on tools from [**applied algebraic topology**](https://arxiv.org/abs/2004.00738), [**human-centered machine learning*](https://cacm.acm.org/research/toward-practices-for-human-centered-machine-learning/) (HCML), [**eXplainable AI**](https://www.sciencedirect.com/science/article/pii/S1566253523001148) (XAI), and applied statistics.
+      I am interested in **biomedical data analysis**, particularly in **cancer diagnostics** and other **high-dimensional domains** where interpretability and structure are critical. My work draws on tools from [applied algebraic topology](https://arxiv.org/abs/2004.00738), [human-centered machine learning](https://cacm.acm.org/research/toward-practices-for-human-centered-machine-learning/) (HCML), [eXplainable AI](https://www.sciencedirect.com/science/article/pii/S1566253523001148) (XAI), and applied statistics.
       I was a DST-INSPIRE Research Scholar in the Department of Mathematical Sciences at Tezpur University from 2018 to 2024. My research was broadly focused on generating functions, *q*-series, and their combinatorial properties. 
 education:
     title: Education
@@ -80,6 +80,13 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Research Fellow
+        time: 2025 - Present
+        company: Tezpur University, Assam, Pin - 784028
+        details: |
+          - **Project:** Designing high-performing, graph neural network based novel computational tools for multi-layered protein interaction networks (PINs) alignment and identification of network modules/motifs for prioritizing common anti-viral drug targets for multiple hepatotropic viral diseases.
+          - **Funding:** Department of Biotechnology, Govt. of India
+
       - role: Freelance Educator
         time: 2020 - Present
         company: EdTech Platforms
