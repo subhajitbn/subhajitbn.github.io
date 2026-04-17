@@ -1,0 +1,45 @@
+/* Subhajit CSS */
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px; /* Slightly larger for crisp readability */
+  line-height: 1.6;
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 0 20px;
+  background: #fff;
+  color: #000;
+}
+
+a { color: #0000EE; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:visited { color: #551A8B; }
+
+h1, h2, h3 { font-weight: bold; margin-top: 1.8em; margin-bottom: 0.4em; }
+
+/* The distinct horizontal lines */
+hr { border: 0; border-top: 1px solid #000; margin: 2em 0; }
+
+/* Navigation row */
+nav { margin-bottom: 1em; font-size: 1.1em; }
+
+/* Metadata (Dates) in Courier */
+.date { font-family: "Courier New", Courier, monospace; font-size: 0.9em; }
+
+/* Projects/Articles list layout */
+.item-list { list-style: none; padding: 0; }
+.item-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
+
+/* Code blocks for Zig/Python snippets */
+pre, code { font-family: "Courier New", monospace; background: #f9f9f9; padding: 2px 5px; }
+
+/* Minimalist Syntax Highlighting */
+.highlight .k { color: #0000ff; font-weight: bold; } /* Keywords */
+.highlight .s { color: #008000; }                   /* Strings */
+.highlight .c { color: #888888; font-style: italic; } /* Comments */
+.highlight .n { color: #000000; }                   /* Numbers/Normal */
+pre.highlight { 
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  background: #fdfdfd; 
+  overflow-x: auto; 
+}

@@ -1,25 +1,27 @@
----
-#Add "layout: compress" here to compress the html code
----
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-{% include head.html %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" 
+          onload="renderMathInElement(document.body);"></script>
 
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
 <body>
-  <div class="wrapper">
-    {% include sidebar.html %}
-
-    <div class="main-wrapper">
-        {{ content }}
-    </div>
-  </div>
-
-  {% include footer.html %}
-
-{% include scripts.html %}
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <a href="/">Home</a> | <a href="/blog">Articles</a> | <a href="/projects">Projects</a> | <a href="/cv">CV</a>
+    </nav>
+  </header>
+  <hr>
+  <main>{{ content }}</main>
+  <hr>
+  <footer>© {{ "now" | date: "%Y" }} {{ site.title }}</footer>
 </body>
-
 </html>
-
