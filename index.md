@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-PhD in Math. Currently working as a project fellow at Sikkim University. Research interests include Network Science, Combinatorics, Computational Biology, and ML.
+PhD in Math. Currently working as a project fellow at Sikkim University, funded by the Department of Biotechnology (DBT). Research interests include Network Science, Combinatorics, Computational Biology, and ML.
 
 ---
 

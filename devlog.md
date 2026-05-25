@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Devlog
+permalink: /devlog/
 ---
 
 <section class="devlog-stream">
