@@ -2,21 +2,21 @@
 layout: default
 title: Home
 ---
-Project Fellow at Sikkim University focusing on Computational Biology, Graph Neural Networks, and Chemical Reaction Network Theory.
+PhD in Math. Currently working as a project fellow at Sikkim University. Research interests include Network Science, Combinatorics, Computational Biology, and ML.
 
 ---
 
 ### Key Projects
-* **[Zinapse](/projects/zinapse)** A high-performance profiler for Protein-Protein Interaction (PPI) networks. Built in Zig using optimized CSR formats to handle large-scale multi-modal biomedical data.
+* **[Genelit](/projects/genelit)** A small but handy tool, built to help scientists quickly perform a literature review on a set of genes associated with a particular cancer type.
 
 ---
 
 ### Recent Articles
-<div class="item-list">
+<ul class="articles">
   {% for post in site.posts limit:5 %}
-  <div class="item-row">
+  <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
     <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
-  </div>
+  </li>
   {% endfor %}
-</div>
+</ul>

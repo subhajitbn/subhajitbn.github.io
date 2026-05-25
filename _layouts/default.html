@@ -1,27 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" 
-          onload="renderMathInElement(document.body);"></script>
+<!doctype html>
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{{ page.title }} | {{ site.title }}</title>
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <a href="/">Home</a> | <a href="/blog">Articles</a> | <a href="/projects">Projects</a> | <a href="/cv">CV</a>
-    </nav>
-  </header>
-  <hr>
-  <main>{{ content }}</main>
-  <hr>
-  <footer>© {{ "now" | date: "%Y" }} {{ site.title }}</footer>
-</body>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+        />
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+        ></script>
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+            onload="
+                renderMathInElement(document.body, {
+                    delimiters: [
+                        { left: '$$', right: '$$', display: true },
+                        { left: '$', right: '$', display: false },
+                        { left: '\\(', right: '\\)', display: false },
+                        { left: '\\[', right: '\\]', display: true },
+                    ],
+                })
+            "
+        ></script>
+
+        <link
+            rel="stylesheet"
+            href="{{ '/assets/css/style.css' | relative_url }}"
+        />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1 id="logo">
+                    <a href="/">Subhajit Bandyopadhyay</a>
+                </h1>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog/">Articles</a></li>
+                    <!--<li><a href="/projects/">Projects</a></li>-->
+                    <li><a href="/devlog/">Devlog</a></li>
+                    <li><a href="/cv/">CV</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>{{ content }}</main>
+
+        <footer>© 2025–{{ "now" | date: "%Y" }} Subhajit Bandyopadhyay</footer>
+    </body>
 </html>

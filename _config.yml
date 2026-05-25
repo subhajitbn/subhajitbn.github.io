@@ -9,14 +9,19 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  devlog:
+    output: true
+    permalink: /devlog/:path/
 
 # Markdown engine
 markdown: kramdown
 highlighter: rouge
 
-# Essential for the "Crisp" look (removes theme overhead)
+# Removes theme overhead
 theme: []
 
 kramdown:
-  input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block_code_engines:
+      zig: rouge
