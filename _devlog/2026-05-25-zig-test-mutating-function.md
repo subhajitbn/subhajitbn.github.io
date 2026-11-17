@@ -53,4 +53,4 @@ test "reverseArray: works" {
 }
 ```
 
-In any case, having a function do both side effects and return something is not a good idea. It's better if a function does exactly one thing.
+Note that, it is generally not a good idea to have a single function with side effects and a return value. A modular function should do exactly one of those two things.

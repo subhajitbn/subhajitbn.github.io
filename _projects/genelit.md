@@ -10,7 +10,7 @@ A small but handy tool, built to help scientists quickly perform a literature re
 - [Live](https://genelit.streamlit.app/)
 
 ### Why
-In my own cancer biomarker research, I often found myself manually checking PubMed for gene relevance. This is a slow and repetitive process. GeneLit is a fast, minimal tool to generate a PubMed literature status for a list of genes, with filters for cancer type, synonyms, and publication dates.
+In my own [cancer biomarker research](https://authors.elsevier.com/c/1nakW5Fq7aj68R), I often found myself manually checking PubMed for gene relevance. This is a slow and repetitive process. GeneLit is a fast, minimal tool to generate the PubMed literature status for a list of genes, with filters for cancer type, synonyms, and publication dates.
 
 ### Features
 - Easy-to-fill input form for genes, cancer type, and time range
